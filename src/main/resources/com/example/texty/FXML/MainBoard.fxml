@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" stylesheets="@../Style/Style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.texty.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d397f8" height="456.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" width="400.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7d0dc3" height="66.0" layoutY="535.0" stroke="TRANSPARENT" strokeType="INSIDE" width="400.0" />
+      <TextField fx:id="textField" layoutX="14.0" layoutY="546.0" prefHeight="25.0" prefWidth="307.0" promptText="Send messages" stylesheets="@../Style/Style.css">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font></TextField>
+      <Button fx:id="sendButton" layoutX="332.0" layoutY="545.0" mnemonicParsing="false" onAction="#handleSendButton" prefHeight="50.0" prefWidth="50.0" stylesheets="@../Style/Style.css" textAlignment="CENTER" />
+      <ImageView disable="true" fitHeight="55.0" fitWidth="55.0" layoutX="330.0" layoutY="543.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/sendIMG.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7d0dc3" height="80.0" stroke="TRANSPARENT" strokeType="INSIDE" width="400.0" />
+      <VBox fx:id="chatBox" alignment="TOP_RIGHT" fillWidth="false" layoutY="81.0" prefHeight="456.0" prefWidth="400.0" spacing="15.0">
+         <padding>
+            <Insets bottom="15.0" left="30.0" right="15.0" top="15.0" />
+         </padding>
+      </VBox>
+      <ImageView fx:id="avatar" fitHeight="55.0" fitWidth="55.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Avatar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="330.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Call.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="80.0" layoutY="26.0" stylesheets="@../Style/Style.css" text="Ếch tím" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

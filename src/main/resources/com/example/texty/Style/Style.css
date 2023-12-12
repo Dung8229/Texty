@@ -1,0 +1,29 @@
+.anchor-pane
+{
+    -fx-background-color: #D397F8;
+}
+
+.button
+{
+    -fx-background-radius: 90 90 90 90;
+}
+
+.text-field
+{
+    -fx-background-radius: 90 90 90 90;
+    -fx-background-color: #570987;
+    -fx-text-fill: white;
+    -fx-font-family: "Inter";
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.rectangle
+{
+    -fx-border-width: 0
+}
+
+.label
+{
+    -fx-font-family: "Inter";
+}

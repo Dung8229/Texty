@@ -13,7 +13,7 @@
 
 <AnchorPane fx:id="mainBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" stylesheets="@../Style/Style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.texty.Controller">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d397f8" height="456.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" width="400.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f79797" height="456.0" layoutY="79.0" stroke="TRANSPARENT" strokeType="INSIDE" width="400.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7d0dc3" height="66.0" layoutY="535.0" stroke="TRANSPARENT" strokeType="INSIDE" width="400.0" />
       <TextField fx:id="textField" layoutX="14.0" layoutY="546.0" prefHeight="25.0" prefWidth="307.0" promptText="Send messages" stylesheets="@../Style/Style.css">
          <font>
